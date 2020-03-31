@@ -4,6 +4,8 @@ from urllib.parse import urlparse
 from django.forms import ModelForm, ValidationError
 from django.utils.translation import ugettext_lazy as _
 
+from zgw_consumers.models import Service
+
 from .models import InternalService, NLXConfig
 
 
@@ -36,3 +38,9 @@ class InternalServiceForm(ModelForm):
     class Meta:
         model = InternalService
         fields = ("enabled", "nlx")
+
+
+class ExternalServiceForm(ModelForm):
+    class Meta:
+        model = Service
+        fields = ("api_root", "api_type", "label", "auth_type")
