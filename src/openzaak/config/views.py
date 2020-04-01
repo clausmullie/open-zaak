@@ -21,6 +21,9 @@ class ConfigDetailView(AdminRequiredMixin, TemplateView):
         internal_services = InternalService.objects.order_by("api_type").all()
         context["internal_services"] = internal_services
 
+        external_services = Service.objects.order_by("api_type", "api_root").all()
+        context["external_services"] = external_services
+
         return context
 
 
