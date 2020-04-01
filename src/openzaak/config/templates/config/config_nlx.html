@@ -16,9 +16,8 @@
         <fieldset>
             {{ form.non_field_errors }}
 
-            {% form_field form.directory %}
-            {% form_field form.outway %}
-
+            {% form_field form.directory widget='form:SelectRow' %}
+            {% form_field form.outway widget='form:URLInputRow' %}
         </fieldset>
 
         <div class="btn-toolbar justify-content-between py-sm-3">
