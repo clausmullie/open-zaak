@@ -68,6 +68,8 @@ class ExternalServiceForm(ModelForm):
             "nlx",
             "client_id",
             "secret",
+            "user_id",
+            "user_representation",
             "header_key",
             "header_value",
         )
