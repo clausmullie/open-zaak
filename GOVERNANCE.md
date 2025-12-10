@@ -4,18 +4,50 @@
 
 This document contains a draft proposal for the 'governance.md' file on the OpenZaak repository.
 
-## Principles
+## Governance 
 
-As a community we want make it easier for new users to become contributors and maintainers.
+OpenZaak is:
+a) an implementation the VNG Realisatie Standard APIs for Case Management (zaakgericht werken)
+b) a component in a portfolio of components that together form the Zaakgericht Werken Platform
+
+This means that while it can be used as a stand alone component, its development is influenced by the development of other components. 
+
+The development of OpenZaak is coordinated by the collaborative effort between municipalities leading zaakgericht werken.
+
+The relevant municipalities coordinate: 
+* the identification of new features
+* the prioritisation of backlogs and planning roadmaps 
+* the financing and contracting of development and maintenance works
+
+## Principles
 
 The OpenZaak community adheres to the following principles:
 
-* OpenZaak is open source.
+* Openzaak is open source.
 * We're a welcoming and respectful community as mentioned in our [Code of Conduct](#Code-of-Conduct).
-* Transparent and accessible, changes to the OpenZaak organization, OpenZaak code repositories, and OpenZaak related activities (e.g. level, involvement, etc) are done in public.
-* Ideas and contributions are accepted according to their technical merit and alignment with project objectives, scope, and design principles.
+* Ideas and contributions accepted according to their technical merit and alignment with project objectives, scope, and design principles.
+* We strive to document all changes to the OpenZaak organization, OpenZaak code repositories, and OpenZaak related activities (e.g. level, involvement, etc) in public.
 
-The maintainers of OpenZaak have two steering teams, a technical one and a core group (kern groep).
+That being said, it is possible some decisions may not be open or visible in this repo - particularly if they relate to other components. 
+
+## Governance bodies
+
+OpenZaak is governed by two bodies, a core group (kern groep) and a technical steering team.
+
+## Core group
+
+Responsibilities of the core group:
+
+* Maintaining the mission, vision, values, and scope of the project
+* Collecting planned features and presenting them in a unified view
+* Refining the governance as needed
+* Making codebase level decisions
+* Resolving escalated project decisions when the subteam responsible is blocked
+* Managing the OpenZaak brand
+* Licensing and intellectual property changes
+* Controlling access to OpenZaak assets such as hosting and project calendars
+
+The core group is made up of representatives of the coordinating municipalities.
 
 ## Technical steering team
 
@@ -28,17 +60,15 @@ have the joint responsibility to:
 * Managing and planning releases
 * Controlling rights to Open Zaak assets such as source repositories
 
+The core group is made up of representatives of the parties contracted to do development and maintenance work, as well as representatives delegated by the coordinating municipalities.
+
 The current team members are:
 
-* Anton Boerma, Exxellence
 * Joeri Bekker, Maykin Media
 * Sergei Maertens, Maykin Media
-* Tahir Malik, Contezza
-* Tjerk Vaags, Contezza
 
 Any active member of the community can request to become a technical steering team
-member by asking the technical steering team. The technical steering team will vote on
-it (simple majority).
+member by asking the technical steering team.
 
 On a day to day basis, these members are responsible for:
 
@@ -59,19 +89,6 @@ ultimate ruling.
 
 Ideally, no one company or organization will employ a simple majority of the technical
 steering team.
-
-## Core group
-
-Responsibilities of the core group:
-
-* Maintaining the mission, vision, values, and scope of the project
-* Collecting planned features and presenting them in a unified view
-* Refining the governance as needed
-* Making codebase level decisions
-* Resolving escalated project decisions when the subteam responsible is blocked
-* Managing the OpenZaak brand
-* Licensing and intellectual property changes
-* Controlling access to OpenZaak assets such as hosting and project calendars
 
 ## Decision making process
 
