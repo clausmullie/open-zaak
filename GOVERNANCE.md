@@ -28,7 +28,10 @@ The OpenZaak community adheres to the following principles:
 * Ideas and contributions accepted according to their technical merit and alignment with project objectives, scope, and design principles.
 * We strive to document all changes to the OpenZaak organization, OpenZaak code repositories, and OpenZaak related activities (e.g. level, involvement, etc) in public.
 
-That being said, it is possible some decisions may not be open or visible in this repo - particularly if they relate to other components. 
+That being said, it is possible some decisions may not be open or visible in this repo - particularly if they relate to other components.
+
+It is also not currently the aim of this community to actively grow a community of contributors.
+It is expected that the majority of development is performed by parties that have been contractually appointed to do so.
 
 ## Governance bodies
 
