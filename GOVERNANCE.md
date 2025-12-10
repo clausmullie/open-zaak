@@ -68,7 +68,7 @@ The current team members are:
 * Sergei Maertens, Maykin Media
 
 Any active member of the community can request to become a technical steering team
-member by asking the technical steering team.
+member by asking the core group.
 
 On a day to day basis, these members are responsible for:
 
@@ -86,23 +86,6 @@ described in [the contributing guide](CONTRIBUTING.md#Reviews).
 If more than one technical steering team member disagrees with a decision of the
 technical steering team they may appeal to the core group who will make the
 ultimate ruling.
-
-Ideally, no one company or organization will employ a simple majority of the technical
-steering team.
-
-## Decision making process
-
-The default decision making process is lazy-consensus. This means that any decision is considered supported by the team making it as long as no one objects. Silence on any consensus decision is implicit agreement and equivalent to explicit agreement. Explicit agreement may be stated at will.
-
-When a consensus cannot be found a team member can call for a majority vote on a decision. Every team member has 1 vote.
-
-Many of the day-to-day project maintenance tasks can be done by a lazy consensus model. But the following items must be called to vote:
-
-* Adding a team member (simple majority)
-* Removing a team member (super majority)
-* Changing the governance rules (this document) (super majority)
-* Licensing and intellectual property changes (including new logos, wordmarks) (simple majority)
-* Adding, archiving, or removing subprojects (simple majority)
 
 ## Code of Conduct
 
