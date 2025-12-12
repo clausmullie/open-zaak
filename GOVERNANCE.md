@@ -1,25 +1,22 @@
 # DRAFT: OpenZaak codebase goverance
 
-## Introduction
-
 This document contains a draft proposal for the 'governance.md' file on the OpenZaak repository.
 
-## Governance 
+## Introduction
 
 OpenZaak is:
 a) an implementation the VNG Realisatie Standard APIs for Case Management (zaakgericht werken)
 b) a component in a portfolio of components that together form the Zaakgericht Werken Platform
 
-This means that while it can be used as a stand alone component, its development is influenced by the development of other components. 
-
 The development of OpenZaak is coordinated by the collaborative effort between municipalities leading zaakgericht werken.
 
-The relevant municipalities coordinate: 
+The municipalities coordinate: 
 * the identification of new features
 * the prioritisation of backlogs and planning roadmaps 
 * the financing and contracting of development and maintenance works
+* the interdependencies and relationships between all components
 
-## Principles
+## Governance principles
 
 The OpenZaak community adheres to the following principles:
 
@@ -30,8 +27,8 @@ The OpenZaak community adheres to the following principles:
 
 That being said, it is possible some decisions may not be open or visible in this repo - particularly if they relate to other components.
 
-It is also not currently the aim of this community to actively grow a community of contributors.
 It is expected that the majority of development is performed by parties that have been contractually appointed to do so.
+As such, it is not currently the aim of this community to actively grow a community of contributors.
 
 ## Governance bodies
 
@@ -49,8 +46,10 @@ Responsibilities of the core group:
 * Managing the OpenZaak brand
 * Licensing and intellectual property changes
 * Controlling access to OpenZaak assets such as hosting and project calendars
+* Coordinating across componenets 
 
 The core group is made up of representatives of the coordinating municipalities.
+Representatives of market parties can be invited.
 
 ## Technical steering team
 
