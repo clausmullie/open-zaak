@@ -1,21 +1,55 @@
 # DRAFT: OpenZaak codebase goverance
 
-## Introduction
-
 This document contains a draft proposal for the 'governance.md' file on the OpenZaak repository.
 
-## Principles
+## Introduction
 
-As a community we want make it easier for new users to become contributors and maintainers.
+OpenZaak is:
+a) an implementation the VNG Realisatie Standard APIs for Case Management (zaakgericht werken)
+b) a component in a portfolio of components that together form the Zaakgericht Werken Platform
+
+The development of OpenZaak is coordinated by the collaborative effort between municipalities leading zaakgericht werken.
+
+The municipalities coordinate: 
+* the identification of new features
+* the prioritisation of backlogs and planning roadmaps 
+* the financing and contracting of development and maintenance works
+* the interdependencies and relationships between all components
+
+## Governance principles
 
 The OpenZaak community adheres to the following principles:
 
-* OpenZaak is open source.
+* Openzaak is open source.
 * We're a welcoming and respectful community as mentioned in our [Code of Conduct](#Code-of-Conduct).
-* Transparent and accessible, changes to the OpenZaak organization, OpenZaak code repositories, and OpenZaak related activities (e.g. level, involvement, etc) are done in public.
-* Ideas and contributions are accepted according to their technical merit and alignment with project objectives, scope, and design principles.
+* Ideas and contributions accepted according to their technical merit and alignment with project objectives, scope, and design principles.
+* We strive to document all changes to the OpenZaak organization, OpenZaak code repositories, and OpenZaak related activities (e.g. level, involvement, etc) in public.
 
-The maintainers of OpenZaak have two steering teams, a technical one and a core group (kern groep).
+That being said, it is possible some decisions may not be open or visible in this repo - particularly if they relate to other components.
+
+It is expected that the majority of development is performed by parties that have been contractually appointed to do so.
+As such, it is not currently the aim of this community to actively grow a community of contributors.
+
+## Governance bodies
+
+OpenZaak is governed by two bodies, a core group (kern groep) and a technical steering team.
+
+## Core group
+
+Responsibilities of the core group:
+
+* Maintaining the mission, vision, values, and scope of the project
+* Collecting planned features and presenting them in a unified view
+* Refining the governance as needed
+* Making codebase level decisions
+* Resolving escalated project decisions when the subteam responsible is blocked
+* Managing the OpenZaak brand
+* Licensing and intellectual property changes
+* Controlling access to OpenZaak assets such as hosting and project calendars
+* Coordinating across componenets 
+
+The core group is made up of representatives of the coordinating municipalities.
+Representatives of market parties can be invited.
 
 ## Technical steering team
 
@@ -28,17 +62,15 @@ have the joint responsibility to:
 * Managing and planning releases
 * Controlling rights to Open Zaak assets such as source repositories
 
+The core group is made up of representatives of the parties contracted to do development and maintenance work, as well as representatives delegated by the coordinating municipalities.
+
 The current team members are:
 
-* Anton Boerma, Exxellence
 * Joeri Bekker, Maykin Media
 * Sergei Maertens, Maykin Media
-* Tahir Malik, Contezza
-* Tjerk Vaags, Contezza
 
 Any active member of the community can request to become a technical steering team
-member by asking the technical steering team. The technical steering team will vote on
-it (simple majority).
+member by asking the core group.
 
 On a day to day basis, these members are responsible for:
 
@@ -56,36 +88,6 @@ described in [the contributing guide](CONTRIBUTING.md#Reviews).
 If more than one technical steering team member disagrees with a decision of the
 technical steering team they may appeal to the core group who will make the
 ultimate ruling.
-
-Ideally, no one company or organization will employ a simple majority of the technical
-steering team.
-
-## Core group
-
-Responsibilities of the core group:
-
-* Maintaining the mission, vision, values, and scope of the project
-* Collecting planned features and presenting them in a unified view
-* Refining the governance as needed
-* Making codebase level decisions
-* Resolving escalated project decisions when the subteam responsible is blocked
-* Managing the OpenZaak brand
-* Licensing and intellectual property changes
-* Controlling access to OpenZaak assets such as hosting and project calendars
-
-## Decision making process
-
-The default decision making process is lazy-consensus. This means that any decision is considered supported by the team making it as long as no one objects. Silence on any consensus decision is implicit agreement and equivalent to explicit agreement. Explicit agreement may be stated at will.
-
-When a consensus cannot be found a team member can call for a majority vote on a decision. Every team member has 1 vote.
-
-Many of the day-to-day project maintenance tasks can be done by a lazy consensus model. But the following items must be called to vote:
-
-* Adding a team member (simple majority)
-* Removing a team member (super majority)
-* Changing the governance rules (this document) (super majority)
-* Licensing and intellectual property changes (including new logos, wordmarks) (simple majority)
-* Adding, archiving, or removing subprojects (simple majority)
 
 ## Code of Conduct
 
