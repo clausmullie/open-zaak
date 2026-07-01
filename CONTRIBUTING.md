@@ -28,7 +28,7 @@ Now the various formatting hooks will be run automatically as a pre-commit hook.
 can pass `--no-verify` to `git commit` to disable these checks for a specific commit
 during development (but keep in mind CI won't pass until your code conforms).
 
-Open Zaak aims to meet the criteria of the [Standard for Public Code](https://standard.publiccode.net). Please make sure that your pull requests are compliant, that will make the reviews quicker.
+Open Zaak aims to meet the criteria of the [Standard for Public Code](https://standardforpubliccode.org/). Please make sure that your pull requests are compliant, that will make the reviews quicker.
 
 ### Forking the repository
 In order to implement changes to Open Zaak when you do not have rights for the [Open Zaak repository](https://github.com/open-zaak/open-zaak), you must first fork the repository. Once the repository is forked, you can clone it to your local machine.
